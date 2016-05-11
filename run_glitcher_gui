@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+python ~/Desktop/chipwhisperer_new/software/bil_glitcher/glitcher1.py

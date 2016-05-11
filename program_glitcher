@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+ipcs -s | grep famedemo | awk '{print $2}' | xargs ipcrm sem
+impact -batch ./impact_scripts/impact_glitcher.cmd
+
+#[[ "$?"=0 ]] && python ~/Desktop/chipwhisperer_new/software/bil_glitcher/glitcher1.py

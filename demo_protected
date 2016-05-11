@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+grmon -xilusb -u -e \"load ./binaries/trap.protected ; run\"
